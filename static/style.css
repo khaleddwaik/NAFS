@@ -1216,8 +1216,6 @@ body {
 }
 
 .action-btn {
-
-.action-btn {
   padding: 6px 14px;
   border-radius: var(--radius-xs);
   border: 1px solid var(--gray-300);
@@ -1465,9 +1463,110 @@ body {
 @media (max-width: 1100px) {
   .main { grid-template-columns: 280px 1fr 300px; gap: 16px; }
 }
+
+/* ─── MOBILE TABS ───────────────────────────────────────────────────────────── */
+.mobile-tabs {
+  display: none;
+  position: sticky;
+  top: 64px;
+  z-index: 90;
+  background: white;
+  border-bottom: 2px solid var(--gray-200);
+  box-shadow: 0 2px 8px rgba(0,0,0,.06);
+}
+
+.mobile-tab {
+  flex: 1;
+  padding: 12px 8px;
+  border: none;
+  background: none;
+  font-family: var(--font-en);
+  font-size: .78rem;
+  font-weight: 600;
+  color: var(--gray-500);
+  cursor: pointer;
+  transition: all .2s;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.mobile-tab.active {
+  color: var(--navy-mid);
+  border-bottom-color: var(--navy-mid);
+}
+
+.mobile-tab-icon { font-size: 1rem; }
+.mobile-tab-label { font-size: .65rem; letter-spacing: .04em; text-transform: uppercase; }
+
 @media (max-width: 900px) {
-  .main { grid-template-columns: 1fr; padding: 16px; }
-  .header-stats { display: none; }
+  .mobile-tabs { display: flex; }
+
+  .header-stats  { display: none; }
+  .header-badges { display: none; }
+
+  .header-inner { padding: 0 16px; gap: 12px; }
+
+  .main {
+    grid-template-columns: 1fr;
+    padding: 0;
+    gap: 0;
+    margin-top: 0;
+  }
+
+  /* Hide all panels by default; JS shows active one */
+  .panel-config,
+  .panel-pipeline,
+  .panel-result {
+    display: none;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+    border-top: none;
+  }
+
+  .panel.mobile-active { display: block; }
+
+  /* Config panel tweaks */
+  .config-section { padding: 14px 16px; }
+  .generate-btn { width: calc(100% - 32px); margin: 14px 16px; }
+
+  /* Pipeline panel */
+  .panel-pipeline { min-height: unset; }
+  .pipeline-container { padding: 16px; }
+  .pipeline-idle { min-height: 260px; }
+
+  /* Quiz panel */
+  .panel-result {
+    min-height: unset;
+    max-height: unset;
+    overflow-y: visible;
+  }
+
+  .mcq-card { padding: 16px; }
+  .mcq-question { font-size: .95rem; }
+  .opt-text { font-size: .88rem; }
+
+  /* Bigger touch targets */
+  .mcq-option { padding: 13px 14px; min-height: 48px; }
+  .grade-btn  { padding: 12px; min-height: 44px; }
+  .chapter-item { padding: 11px 12px; min-height: 48px; }
+  .mode-btn { padding: 14px; }
+
+  /* Chapter list taller on mobile */
+  .chapter-list { max-height: 300px; }
+
+  /* Quiz header chips wrap */
+  .quiz-header-right { flex-wrap: wrap; }
+  .quiz-progress-chips { max-width: 100%; }
+
+  /* Score summary */
+  .ss-actions { flex-direction: column; width: 100%; }
+  .action-btn { width: 100%; padding: 12px; text-align: center; font-size: .85rem; }
 }
 
 /* ─── MCQ EXTRA ─────────────────────────────────────────────────────────────── */

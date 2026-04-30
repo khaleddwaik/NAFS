@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loadChapters(state.grade);
   setupDifficultyRadios();
   loadHistory();
+  initMobileTabs();
 });
 
 /* ─── STATS ─────────────────────────────────────────────────────────────────── */
@@ -189,6 +190,7 @@ function startGeneration() {
   showPipelineFlow();
   resetPipelineStages();
   resetQuizPanel();
+  if (window.innerWidth <= 900) switchTab('pipeline');
   showResultLoading('Initializing pipeline...');
   clearLog();
 
@@ -336,6 +338,7 @@ function handleQuestionReady(data) {
 
   setChipState(idx, 'unanswered');
   replaceLoadingCard(idx, data);
+  if (window.innerWidth <= 900 && idx === 1) switchTab('quiz');
 
   log(`Question ${idx}/${total} ready — verdict: ${verdict} score: ${score}/10`, 'success');
 }
@@ -729,6 +732,40 @@ function toggleLog() {
   content.style.display = open ? 'block' : 'none';
   label.textContent     = open ? '▼ Pipeline Log' : '▲ Pipeline Log';
 }
+
+/* ─── MOBILE TABS ───────────────────────────────────────────────────────────── */
+const TAB_PANELS = { config: 'panel-config', pipeline: 'panel-pipeline', quiz: 'panel-result' };
+let activeTab = 'config';
+
+function switchTab(tab) {
+  if (window.innerWidth > 900) return;
+  activeTab = tab;
+  Object.entries(TAB_PANELS).forEach(([t, cls]) => {
+    const el = document.querySelector('.' + cls);
+    if (el) el.classList.toggle('mobile-active', t === tab);
+  });
+  ['config','pipeline','quiz'].forEach(t => {
+    const btn = document.getElementById('tab' + t.charAt(0).toUpperCase() + t.slice(1));
+    if (btn) btn.classList.toggle('active', t === tab);
+  });
+}
+
+function initMobileTabs() {
+  if (window.innerWidth <= 900) {
+    Object.values(TAB_PANELS).forEach(cls => {
+      const el = document.querySelector('.' + cls);
+      if (el) el.classList.remove('mobile-active');
+    });
+    switchTab('config');
+  } else {
+    Object.values(TAB_PANELS).forEach(cls => {
+      const el = document.querySelector('.' + cls);
+      if (el) { el.style.display = ''; el.classList.remove('mobile-active'); }
+    });
+  }
+}
+
+window.addEventListener('resize', initMobileTabs);
 
 /* ─── HELPERS ───────────────────────────────────────────────────────────────── */
 function flashChapterList() {
