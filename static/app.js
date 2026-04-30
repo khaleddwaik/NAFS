@@ -3,7 +3,7 @@ const state = {
   mode:         'full',
   grade:        6,
   difficulty:   'intermediate',
-  numQuestions: 5,
+  numQuestions: 3,
   chapter:      null,   // { num, en, ar, lesson_count, lessons }
   chapters:     {},     // grade → array of chapter objects
   generating:   false,
@@ -41,21 +41,6 @@ async function loadStats() {
   }
 }
 
-/* ─── MODE ──────────────────────────────────────────────────────────────────── */
-function setMode(mode) {
-  state.mode = mode;
-  document.querySelectorAll('.mode-btn').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.mode === mode);
-  });
-  const label = mode === 'full' ? 'Full Mode' : 'Teacher-Only Mode';
-  document.getElementById('pipelineModeLabel').textContent = label;
-
-  const ctrl = document.getElementById('stageController');
-  if (ctrl) {
-    ctrl.style.opacity       = mode === 'full' ? '1' : '0.3';
-    ctrl.style.pointerEvents = mode === 'full' ? '' : 'none';
-  }
-}
 
 /* ─── GRADE ─────────────────────────────────────────────────────────────────── */
 function setGrade(grade) {
@@ -90,16 +75,6 @@ function setupDifficultyRadios() {
   });
 }
 
-/* ─── NUM QUESTIONS ─────────────────────────────────────────────────────────── */
-function setNumQ(n) {
-  state.numQuestions = n;
-  document.querySelectorAll('.num-q-btn').forEach(btn => {
-    btn.classList.toggle('active', parseInt(btn.dataset.n) === n);
-  });
-  const mins = Math.round(n * 0.6);
-  const note = document.getElementById('numQNote');
-  if (note) note.textContent = `${n} question${n !== 1 ? 's' : ''} · ~${mins < 1 ? 1 : mins} min`;
-}
 
 /* ─── CHAPTER SELECTOR ──────────────────────────────────────────────────────── */
 async function loadChapters(grade) {
