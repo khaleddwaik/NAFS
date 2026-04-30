@@ -382,7 +382,6 @@ function addLoadingCard(index, total) {
       <div class="mcq-loading-label">Generating question ${index} of ${total}...</div>
     </div>`;
   cards.appendChild(div);
-  div.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 
   // Show quiz content panel (loading state)
   document.getElementById('resultEmpty').style.display  = 'none';
@@ -529,7 +528,6 @@ function showScoreSummary(correct, total) {
 
   const summary = document.getElementById('scoreSummary');
   summary.style.display = 'flex';
-  summary.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 
   // Animate ring
   if (circle) {
