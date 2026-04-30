@@ -1507,14 +1507,19 @@ body {
 
   .header-stats  { display: none; }
   .header-badges { display: none; }
+  .header-inner  { padding: 0 16px; gap: 12px; }
 
-  .header-inner { padding: 0 16px; gap: 12px; }
+  /* Lock body — scroll happens inside panels only */
+  body { overflow: hidden; height: 100dvh; }
 
   .main {
     grid-template-columns: 1fr;
     padding: 0;
     gap: 0;
     margin-top: 0;
+    /* Fill remaining height below header (64px) + tabs (48px) */
+    height: calc(100dvh - 64px - 48px);
+    overflow: hidden;
   }
 
   /* Hide all panels by default; JS shows active one */
@@ -1529,7 +1534,13 @@ body {
     border-top: none;
   }
 
-  .panel.mobile-active { display: block; }
+  /* Active panel fills height and scrolls inside itself */
+  .panel.mobile-active {
+    display: block;
+    height: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 
   /* Config panel tweaks */
   .config-section { padding: 14px 16px; }
