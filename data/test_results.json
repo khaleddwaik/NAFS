@@ -1,0 +1,1062 @@
+{
+  "G4_Ch1_full": {
+    "grade": 4,
+    "chapter_num": 1,
+    "chapter_en": "Place Value",
+    "mode": "full",
+    "difficulty": "intermediate",
+    "elapsed_s": 28.3,
+    "events": [
+      "chapter_info",
+      "stage",
+      "library",
+      "stage",
+      "controller_result",
+      "stage",
+      "question_start",
+      "stage",
+      "draft_question",
+      "stage",
+      "stage",
+      "critic_result",
+      "stage",
+      "question_ready",
+      "all_done",
+      "done"
+    ],
+    "error": null,
+    "question": "أي مما يلي يمثل الصيغة القياسية للعدد \"سبع مئة وخمسة آلاف وأربعة عشر\"؟",
+    "correct_label": "C",
+    "correct_answer": "٧٠٥٠١٤",
+    "options": [
+      {
+        "label": "A",
+        "text": "٧٠٥٠٤١"
+      },
+      {
+        "label": "B",
+        "text": "٧٠٥١٤٠"
+      },
+      {
+        "label": "C",
+        "text": "٧٠٥٠١٤"
+      },
+      {
+        "label": "D",
+        "text": "٧٥٠٠١٤"
+      }
+    ],
+    "explanation": "لكتابة العدد في الصيغة القياسية، نبدأ بقراءة فترة الألوف ثم فترة الآحاد. \"سبع مئة وخمسة آلاف\" تعني ٧٠٥ في فترة الألوف (٧ في مئات الألوف، ٠ في عشرات الألوف، ٥ في الآحاد). أما \"وأربعة عشر\" فتعني ٠١٤ في فترة الآحاد (٠ في المئات، ١ في العشرات، ٤ في الآحاد). بجمع الفترتين نحصل على ٧٠٥٠١٤.",
+    "verdict": "APPROVED",
+    "score": 9,
+    "topic_used": "Converting Word Form to Standard Form",
+    "criteria": {
+      "language": true,
+      "difficulty": true,
+      "scope": true,
+      "correctness": true,
+      "clarity": true,
+      "arabic_quality": true,
+      "distractors": true
+    }
+  },
+  "G4_Ch1_teacher_only": {
+    "grade": 4,
+    "chapter_num": 1,
+    "chapter_en": "Place Value",
+    "mode": "teacher_only",
+    "difficulty": "intermediate",
+    "elapsed_s": 16.0,
+    "events": [
+      "chapter_info",
+      "question_start",
+      "stage",
+      "draft_question",
+      "stage",
+      "stage",
+      "critic_result",
+      "stage",
+      "question_ready",
+      "all_done",
+      "done"
+    ],
+    "error": null,
+    "question": "أي من الأعداد التالية يحتوي على الرقم 6 في منزلة مئات الألوف، والرقم 2 في منزلة العشرات؟",
+    "correct_label": "D",
+    "correct_answer": "613,425",
+    "options": [
+      {
+        "label": "A",
+        "text": "163,425"
+      },
+      {
+        "label": "B",
+        "text": "213,465"
+      },
+      {
+        "label": "C",
+        "text": "613,452"
+      },
+      {
+        "label": "D",
+        "text": "613,425"
+      }
+    ],
+    "explanation": "في العدد 613,425، يقع الرقم 6 في منزلة مئات الألوف (وهو الرقم السادس من اليمين)، ويقع الرقم 2 في منزلة العشرات (وهو الرقم الثاني من اليمين). باقي الخيارات لا تحقق كلا الشرطين.",
+    "verdict": "APPROVED",
+    "score": 10,
+    "topic_used": "Place Value",
+    "criteria": {
+      "language": true,
+      "difficulty": true,
+      "scope": true,
+      "correctness": true,
+      "clarity": true,
+      "arabic_quality": true,
+      "distractors": true
+    }
+  },
+  "G4_Ch2_full": {
+    "grade": 4,
+    "chapter_num": 2,
+    "chapter_en": "Addition and Subtraction",
+    "mode": "full",
+    "difficulty": "intermediate",
+    "elapsed_s": 25.1,
+    "events": [
+      "chapter_info",
+      "stage",
+      "library",
+      "stage",
+      "controller_result",
+      "stage",
+      "question_start",
+      "stage",
+      "draft_question",
+      "stage",
+      "stage",
+      "critic_result",
+      "stage",
+      "question_ready",
+      "all_done",
+      "done"
+    ],
+    "error": null,
+    "question": "كان في مكتبة المدرسة ٣٤٥٠ كتابًا. اشترت المدرسة ١٢٧٥ كتابًا جديدًا. في الأسبوع التالي، استعار الطلاب ٨٣٠ كتابًا. كم كتابًا بقي في المكتبة؟",
+    "correct_label": "D",
+    "correct_answer": "٣٨٩٥",
+    "options": [
+      {
+        "label": "A",
+        "text": "٥٥٥٥"
+      },
+      {
+        "label": "B",
+        "text": "٢٦٢٠"
+      },
+      {
+        "label": "C",
+        "text": "٤٧٢٥"
+      },
+      {
+        "label": "D",
+        "text": "٣٨٩٥"
+      }
+    ],
+    "explanation": "أولاً، نجمع عدد الكتب الأصلية مع الكتب الجديدة: ٣٤٥٠ + ١٢٧٥ = ٤٧٢٥ كتابًا. ثم، نطرح عدد الكتب التي استعارها الطلاب من المجموع الكلي: ٤٧٢٥ - ٨٣٠ = ٣٨٩٥ كتابًا. إذن، بقي في المكتبة ٣٨٩٥ كتابًا.",
+    "verdict": "APPROVED",
+    "score": 9,
+    "topic_used": "Addition and Subtraction of Multi-Digit Numbers (Multi-step Word Problem)",
+    "criteria": {
+      "language": true,
+      "difficulty": true,
+      "scope": true,
+      "correctness": true,
+      "clarity": true,
+      "arabic_quality": true,
+      "distractors": true
+    }
+  },
+  "G4_Ch2_teacher_only": {
+    "grade": 4,
+    "chapter_num": 2,
+    "chapter_en": "Addition and Subtraction",
+    "mode": "teacher_only",
+    "difficulty": "intermediate",
+    "elapsed_s": 15.0,
+    "events": [
+      "chapter_info",
+      "question_start",
+      "stage",
+      "draft_question",
+      "stage",
+      "stage",
+      "critic_result",
+      "stage",
+      "question_ready",
+      "all_done",
+      "done"
+    ],
+    "error": null,
+    "question": "لدى مدرسة ٤٥٠ طالباً. في أحد الأيام، غاب ٣٥ طالباً من البنين و ٢٠ طالبة من البنات. كم عدد الطلاب الحاضرين في ذلك اليوم؟",
+    "correct_label": "B",
+    "correct_answer": "٣٩٥",
+    "options": [
+      {
+        "label": "A",
+        "text": "٤٣٠"
+      },
+      {
+        "label": "B",
+        "text": "٣٩٥"
+      },
+      {
+        "label": "C",
+        "text": "٤١٥"
+      },
+      {
+        "label": "D",
+        "text": "٥٠٥"
+      }
+    ],
+    "explanation": "الخطوة الأولى هي جمع عدد الطلاب الغائبين: ٣٥ (بنين) + ٢٠ (بنات) = ٥٥ طالباً غائباً. الخطوة الثانية هي طرح عدد الطلاب الغائبين من إجمالي عدد الطلاب: ٤٥٠ - ٥٥ = ٣٩٥ طالباً حاضراً.",
+    "verdict": "APPROVED",
+    "score": 10,
+    "topic_used": "Multi-step word problem with addition and subtraction",
+    "criteria": {
+      "language": true,
+      "difficulty": true,
+      "scope": true,
+      "correctness": true,
+      "clarity": true,
+      "arabic_quality": true,
+      "distractors": true
+    }
+  },
+  "G4_Ch3_full": {
+    "grade": 4,
+    "chapter_num": 3,
+    "chapter_en": "Organizing, Representing, and Interpreting Data",
+    "mode": "full",
+    "difficulty": "intermediate",
+    "elapsed_s": 41.4,
+    "events": [
+      "chapter_info",
+      "stage",
+      "library",
+      "stage",
+      "controller_result",
+      "stage",
+      "question_start",
+      "stage",
+      "draft_question",
+      "stage",
+      "stage",
+      "critic_result",
+      "stage",
+      "question_ready",
+      "all_done",
+      "done"
+    ],
+    "error": null,
+    "question": "يعرض الرسم البياني بالأعمدة أدناه الرياضات المفضلة لمجموعة من طلاب الصف الرابع. كم يزيد عدد الطلاب الذين يفضلون كرة القدم على عدد الطلاب الذين يفضلون ألعاب القوى؟\n\n(تخيل الرسم البياني بالأعمدة التالي)\nكرة القدم: 12 طالبًا\nكرة السلة: 8 طلاب\nالسباحة: 10 طلاب\nألعاب القوى: 6 طلاب",
+    "correct_label": "C",
+    "correct_answer": "6 طلاب",
+    "options": [
+      {
+        "label": "A",
+        "text": "18 طالبًا"
+      },
+      {
+        "label": "B",
+        "text": "10 طلاب"
+      },
+      {
+        "label": "C",
+        "text": "6 طلاب"
+      },
+      {
+        "label": "D",
+        "text": "4 طلاب"
+      }
+    ],
+    "explanation": "لإيجاد الزيادة، نقرأ عدد الطلاب الذين يفضلون كرة القدم وهو 12 طالبًا، وعدد الطلاب الذين يفضلون ألعاب القوى وهو 6 طلاب. ثم نطرح العدد الأقل من العدد الأكبر: 12 - 6 = 6 طلاب.",
+    "verdict": "APPROVED",
+    "score": 9,
+    "topic_used": "Interpreting data from bar graphs and performing simple calculations",
+    "criteria": {
+      "language": true,
+      "difficulty": true,
+      "scope": true,
+      "correctness": true,
+      "clarity": true,
+      "arabic_quality": true,
+      "distractors": true
+    }
+  },
+  "G4_Ch3_teacher_only": {
+    "grade": 4,
+    "chapter_num": 3,
+    "chapter_en": "Organizing, Representing, and Interpreting Data",
+    "mode": "teacher_only",
+    "difficulty": "intermediate",
+    "elapsed_s": 21.1,
+    "events": [
+      "chapter_info",
+      "question_start",
+      "stage",
+      "draft_question",
+      "stage",
+      "stage",
+      "critic_result",
+      "stage",
+      "question_ready",
+      "all_done",
+      "done"
+    ],
+    "error": null,
+    "question": "يوضح التمثيل البياني بالصور التالي الفاكهة المفضلة لطلاب الصف الرابع. يمثل كل رمز 🍎 ثمرتين من الفاكهة.<br><br>التفاح: 🍎🍎🍎🍎<br>الموز: 🍎🍎🍎<br>البرتقال: 🍎🍎<br>العنب: 🍎🍎🍎🍎🍎<br><br>كم يزيد عدد الطلاب الذين يفضلون العنب عن عدد الطلاب الذين يفضلون البرتقال؟",
+    "correct_label": "D",
+    "correct_answer": "6 طلاب",
+    "options": [
+      {
+        "label": "A",
+        "text": "14 طالبًا"
+      },
+      {
+        "label": "B",
+        "text": "10 طلاب"
+      },
+      {
+        "label": "C",
+        "text": "3 طلاب"
+      },
+      {
+        "label": "D",
+        "text": "6 طلاب"
+      }
+    ],
+    "explanation": "لحساب عدد الطلاب الذين يفضلون العنب، نضرب عدد رموز العنب في قيمة المفتاح: 5 رموز × 2 فاكهة/رمز = 10 طلاب. <br>ولحساب عدد الطلاب الذين يفضلون البرتقال، نضرب عدد رموز البرتقال في قيمة المفتاح: 2 رمز × 2 فاكهة/رمز = 4 طلاب.<br>لإيجاد الفرق، نطرح عدد الطلاب: 10 - 4 = 6 طلاب.",
+    "verdict": "APPROVED",
+    "score": 9,
+    "topic_used": "Interpreting Pictographs",
+    "criteria": {
+      "language": true,
+      "difficulty": true,
+      "scope": true,
+      "correctness": true,
+      "clarity": true,
+      "arabic_quality": true,
+      "distractors": true
+    }
+  },
+  "G5_Ch1_full": {
+    "grade": 5,
+    "chapter_num": 1,
+    "chapter_en": "Place Value",
+    "mode": "full",
+    "difficulty": "intermediate",
+    "elapsed_s": 58.3,
+    "events": [
+      "chapter_info",
+      "stage",
+      "library",
+      "stage",
+      "controller_result",
+      "stage",
+      "question_start",
+      "stage",
+      "draft_question",
+      "stage",
+      "stage",
+      "critic_result",
+      "stage",
+      "revision",
+      "stage",
+      "draft_question",
+      "stage",
+      "stage",
+      "critic_result",
+      "stage",
+      "question_ready",
+      "all_done",
+      "done"
+    ],
+    "error": null,
+    "question": "ما الصيغة القياسية للعدد: خمسة بلايين ومئتا مليون وثلاثة آلاف وسبعون؟",
+    "correct_label": "B",
+    "correct_answer": "5,200,003,070",
+    "options": [
+      {
+        "label": "A",
+        "text": "5,203,000,070"
+      },
+      {
+        "label": "B",
+        "text": "5,200,003,070"
+      },
+      {
+        "label": "C",
+        "text": "5,200,000,370"
+      },
+      {
+        "label": "D",
+        "text": "5,200,003,70"
+      }
+    ],
+    "explanation": "الصيغة القياسية للعدد 'خمسة بلايين ومئتا مليون وثلاثة آلاف وسبعون' هي 5,200,003,070. حيث يمثل الرقم 5 البلايين، والرقم 200 يمثل الملايين، والرقم 003 يمثل الآلاف (مع الأخذ في الاعتبار الأصفار في منزلة مئات وعشرات الألوف)، والرقم 070 يمثل الآحاد والعشرات (مع الأخذ في الاعتبار الصفر في منزلة المئات).",
+    "verdict": "APPROVED",
+    "score": 9,
+    "topic_used": "القيمة المنزلية ضمن البلايين",
+    "criteria": {
+      "language": true,
+      "difficulty": true,
+      "scope": true,
+      "correctness": true,
+      "clarity": true,
+      "arabic_quality": true,
+      "distractors": true
+    }
+  },
+  "G5_Ch1_teacher_only": {
+    "grade": 5,
+    "chapter_num": 1,
+    "chapter_en": "Place Value",
+    "mode": "teacher_only",
+    "difficulty": "intermediate",
+    "elapsed_s": 27.4,
+    "events": [
+      "chapter_info",
+      "question_start",
+      "stage",
+      "draft_question",
+      "stage",
+      "stage",
+      "critic_result",
+      "stage",
+      "question_ready",
+      "all_done",
+      "done"
+    ],
+    "error": null,
+    "question": "ما هو العدد الذي يمثل “خمسة ملايين ومئتان وتسعة آلاف وثلاثة وسبعون” بالصيغة القياسية؟",
+    "correct_label": "B",
+    "correct_answer": "5,209,073",
+    "options": [
+      {
+        "label": "A",
+        "text": "5,209,037"
+      },
+      {
+        "label": "B",
+        "text": "5,209,073"
+      },
+      {
+        "label": "C",
+        "text": "5,290,073"
+      },
+      {
+        "label": "D",
+        "text": "5,209,73"
+      }
+    ],
+    "explanation": "يمثل العدد “خمسة ملايين ومئتان وتسعة آلاف وثلاثة وسبعون” في الصيغة القياسية 5,209,073.  الرقم 5 في منزلة الملايين. “مئتان وتسعة آلاف” يعني 209 في فترة الآلاف. “ثلاثة وسبعون” تعني 73 في فترة الوحدات، ولأن فترة الوحدات يجب أن تتكون من ثلاثة أرقام، فإننا نكتبها 073. وبالتالي يصبح العدد 5,209,073.",
+    "verdict": "APPROVED",
+    "score": 9,
+    "topic_used": "Writing numbers from word form to standard form (Place Value)",
+    "criteria": {
+      "language": true,
+      "difficulty": true,
+      "scope": true,
+      "correctness": true,
+      "clarity": true,
+      "arabic_quality": true,
+      "distractors": true
+    }
+  },
+  "G5_Ch2_full": {
+    "grade": 5,
+    "chapter_num": 2,
+    "chapter_en": "Addition and Subtraction",
+    "mode": "full",
+    "difficulty": "intermediate",
+    "elapsed_s": 38.7,
+    "events": [
+      "chapter_info",
+      "stage",
+      "library",
+      "stage",
+      "controller_result",
+      "stage",
+      "question_start",
+      "stage",
+      "draft_question",
+      "stage",
+      "stage",
+      "critic_result",
+      "stage",
+      "question_ready",
+      "all_done",
+      "done"
+    ],
+    "error": null,
+    "question": "باستخدام استراتيجية الموازنة، ما ناتج الطرح ذهنياً: ٨,٣ - ٢,٧؟",
+    "correct_label": "D",
+    "correct_answer": "٥,٦",
+    "options": [
+      {
+        "label": "A",
+        "text": "٦,٤"
+      },
+      {
+        "label": "B",
+        "text": "٥,٠"
+      },
+      {
+        "label": "C",
+        "text": "٥,٣"
+      },
+      {
+        "label": "D",
+        "text": "٥,٦"
+      }
+    ],
+    "explanation": "لإيجاد ناتج الطرح ٨,٣ - ٢,٧ باستخدام الموازنة، نجعل العدد الثاني (٢,٧) أسهل للطرح بإضافة ٠,٣ ليصبح ٣. وللحفاظ على قيمة الفرق، يجب أن نضيف نفس القيمة (٠,٣) إلى العدد الأول أيضاً. فتصبح المسألة (٨,٣ + ٠,٣) - (٢,٧ + ٠,٣) = ٨,٦ - ٣ = ٥,٦.",
+    "verdict": "APPROVED",
+    "score": 9,
+    "topic_used": "Mental addition and subtraction",
+    "criteria": {
+      "language": true,
+      "difficulty": true,
+      "scope": true,
+      "correctness": true,
+      "clarity": true,
+      "arabic_quality": true,
+      "distractors": true
+    }
+  },
+  "G5_Ch2_teacher_only": {
+    "grade": 5,
+    "chapter_num": 2,
+    "chapter_en": "Addition and Subtraction",
+    "mode": "teacher_only",
+    "difficulty": "intermediate",
+    "elapsed_s": 31.2,
+    "events": [
+      "chapter_info",
+      "question_start",
+      "stage",
+      "draft_question",
+      "stage",
+      "stage",
+      "critic_result",
+      "stage",
+      "question_ready",
+      "all_done",
+      "done"
+    ],
+    "error": null,
+    "question": "كان في مكتبة ٥,٤٣٢ كتابًا. أُضيف إليها ١,٢٨٩ كتابًا جديدًا. في اليوم التالي، استعار الطلاب ٨٧٥ كتابًا. كم كتابًا بقي في المكتبة؟",
+    "correct_label": "D",
+    "correct_answer": "٥,٨٤٦",
+    "options": [
+      {
+        "label": "A",
+        "text": "٧,٥٩٦"
+      },
+      {
+        "label": "B",
+        "text": "٣,٢٦٨"
+      },
+      {
+        "label": "C",
+        "text": "٦,٩٥٦"
+      },
+      {
+        "label": "D",
+        "text": "٥,٨٤٦"
+      }
+    ],
+    "explanation": "نبدأ بعدد الكتب الأصلي (٥,٤٣٢) ونضيف إليه عدد الكتب الجديدة (١,٢٨٩)، فيصبح المجموع ٦,٧٢١ كتابًا. ثم نطرح عدد الكتب التي استعارها الطلاب (٨٧٥) من المجموع الجديد: ٦,٧٢١ - ٨٧٥ = ٥,٨٤٦ كتابًا.",
+    "verdict": "APPROVED",
+    "score": 9,
+    "topic_used": "Multi-step addition and subtraction word problems",
+    "criteria": {
+      "language": true,
+      "difficulty": true,
+      "scope": true,
+      "correctness": true,
+      "clarity": true,
+      "arabic_quality": true,
+      "distractors": true
+    }
+  },
+  "G5_Ch3_full": {
+    "grade": 5,
+    "chapter_num": 3,
+    "chapter_en": "Multiplication",
+    "mode": "full",
+    "difficulty": "intermediate",
+    "elapsed_s": 29.5,
+    "events": [
+      "chapter_info",
+      "stage",
+      "library",
+      "stage",
+      "controller_result",
+      "stage",
+      "question_start",
+      "stage",
+      "draft_question",
+      "stage",
+      "stage",
+      "critic_result",
+      "stage",
+      "question_ready",
+      "all_done",
+      "done"
+    ],
+    "error": null,
+    "question": "تقطع سيارة مسافة ٧٨ كيلومترًا في الساعة الواحدة. قدّر إجمالي المسافة التي تقطعها السيارة في ١٩ ساعة.",
+    "correct_label": "B",
+    "correct_answer": "١٦٠٠ كيلومتر",
+    "options": [
+      {
+        "label": "A",
+        "text": "١٤٠٠ كيلومتر"
+      },
+      {
+        "label": "B",
+        "text": "١٦٠٠ كيلومتر"
+      },
+      {
+        "label": "C",
+        "text": "١٨٠٠ كيلومتر"
+      },
+      {
+        "label": "D",
+        "text": "١٥٠٠ كيلومتر"
+      }
+    ],
+    "explanation": "لتقدير ناتج الضرب، نقرب كل عامل إلى أقرب عشرة. العدد ٧٨ يقرب إلى ٨٠. العدد ١٩ يقرب إلى ٢٠. ثم نضرب العددين المقربين: ٨٠ × ٢٠ = ١٦٠٠. لذا، فإن إجمالي المسافة المقدرة هي ١٦٠٠ كيلومتر.",
+    "verdict": "APPROVED",
+    "score": 10,
+    "topic_used": "Estimating products",
+    "criteria": {
+      "language": true,
+      "difficulty": true,
+      "scope": true,
+      "correctness": true,
+      "clarity": true,
+      "arabic_quality": true,
+      "distractors": true
+    }
+  },
+  "G5_Ch3_teacher_only": {
+    "grade": 5,
+    "chapter_num": 3,
+    "chapter_en": "Multiplication",
+    "mode": "teacher_only",
+    "difficulty": "intermediate",
+    "elapsed_s": 26.2,
+    "events": [
+      "chapter_info",
+      "question_start",
+      "stage",
+      "draft_question",
+      "stage",
+      "stage",
+      "critic_result",
+      "stage",
+      "question_ready",
+      "all_done",
+      "done"
+    ],
+    "error": null,
+    "question": "اشترت مدرسة 15 صندوقاً من الأقلام. كل صندوق يحتوي على 12 عبوة، وكل عبوة تحتوي على 10 أقلام. كم قلماً اشترت المدرسة إجمالاً؟",
+    "correct_label": "C",
+    "correct_answer": "1800",
+    "options": [
+      {
+        "label": "A",
+        "text": "180"
+      },
+      {
+        "label": "B",
+        "text": "330"
+      },
+      {
+        "label": "C",
+        "text": "1800"
+      },
+      {
+        "label": "D",
+        "text": "1700"
+      }
+    ],
+    "explanation": "لإيجاد العدد الكلي للأقلام، نضرب عدد الصناديق في عدد العبوات في كل صندوق، ثم نضرب الناتج في عدد الأقلام في كل عبوة: 15 × 12 × 10. أولاً، 15 × 12 = 180. ثم، 180 × 10 = 1800 قلماً.",
+    "verdict": "APPROVED",
+    "score": 9,
+    "topic_used": "Multi-step multiplication word problem",
+    "criteria": {
+      "language": true,
+      "difficulty": true,
+      "scope": true,
+      "correctness": true,
+      "clarity": true,
+      "arabic_quality": true,
+      "distractors": true
+    }
+  },
+  "G6_Ch1_full": {
+    "grade": 6,
+    "chapter_num": 1,
+    "chapter_en": "Algebra: Number Patterns and Functions",
+    "mode": "full",
+    "difficulty": "intermediate",
+    "elapsed_s": 19.0,
+    "events": [
+      "chapter_info",
+      "stage",
+      "library",
+      "stage",
+      "controller_result",
+      "stage",
+      "question_start",
+      "stage",
+      "draft_question",
+      "stage",
+      "stage",
+      "critic_result",
+      "stage",
+      "question_ready",
+      "all_done",
+      "done"
+    ],
+    "error": null,
+    "question": "أراد أحمد شراء عدد من الأقلام. إذا كان سعر القلم الواحد ٥ ريالات، ودفع أحمد ٣٠ ريالاً إجمالاً، فكم قلماً اشترى أحمد؟",
+    "correct_label": "C",
+    "correct_answer": "٦ أقلام",
+    "options": [
+      {
+        "label": "A",
+        "text": "٢٥ قلماً"
+      },
+      {
+        "label": "B",
+        "text": "٣٥ قلماً"
+      },
+      {
+        "label": "C",
+        "text": "٦ أقلام"
+      },
+      {
+        "label": "D",
+        "text": "٥ أقلام"
+      }
+    ],
+    "explanation": "لحل هذه المسألة، نكتب معادلة لتمثيل الموقف. إذا كان سعر القلم الواحد ٥ ريالات، وعدد الأقلام المجهول هو (س)، فإن التكلفة الإجمالية تكون ٥ × س. وبما أن أحمد دفع ٣٠ ريالاً إجمالاً، فإن المعادلة هي: ٥س = ٣٠. لحل المعادلة، نقسم الطرفين على ٥: س = ٣٠ ÷ ٥، إذن س = ٦. اشترى أحمد ٦ أقلام.",
+    "verdict": "APPROVED",
+    "score": 10,
+    "topic_used": "Algebra: Equations",
+    "criteria": {
+      "language": true,
+      "difficulty": true,
+      "scope": true,
+      "correctness": true,
+      "clarity": true,
+      "arabic_quality": true,
+      "distractors": true
+    }
+  },
+  "G6_Ch1_teacher_only": {
+    "grade": 6,
+    "chapter_num": 1,
+    "chapter_en": "Algebra: Number Patterns and Functions",
+    "mode": "teacher_only",
+    "difficulty": "intermediate",
+    "elapsed_s": 21.5,
+    "events": [
+      "chapter_info",
+      "question_start",
+      "stage",
+      "draft_question",
+      "stage",
+      "stage",
+      "critic_result",
+      "stage",
+      "question_ready",
+      "all_done",
+      "done"
+    ],
+    "error": null,
+    "question": "ما العدد العاشر في النمط العددي التالي: ٣، ٧، ١١، ١٥، ...؟",
+    "correct_label": "B",
+    "correct_answer": "٣٩",
+    "options": [
+      {
+        "label": "A",
+        "text": "٣٥"
+      },
+      {
+        "label": "B",
+        "text": "٣٩"
+      },
+      {
+        "label": "C",
+        "text": "٤٣"
+      },
+      {
+        "label": "D",
+        "text": "٤٠"
+      }
+    ],
+    "explanation": "يكبر النمط بمقدار ٤ في كل مرة (٧ - ٣ = ٤، ١١ - ٧ = ٤). لإيجاد الحد العاشر، نستخدم القاعدة: الحد الأول + (رقم الحد - ١) × الفرق المشترك. إذن، ٣ + (١٠ - ١) × ٤ = ٣ + ٩ × ٤ = ٣ + ٣٦ = ٣٩.",
+    "verdict": "APPROVED",
+    "score": 9,
+    "topic_used": "Arithmetic Number Patterns",
+    "criteria": {
+      "language": true,
+      "difficulty": true,
+      "scope": true,
+      "correctness": true,
+      "clarity": true,
+      "arabic_quality": true,
+      "distractors": true
+    }
+  },
+  "G6_Ch2_full": {
+    "grade": 6,
+    "chapter_num": 2,
+    "chapter_en": "Statistics and Graphical Representations",
+    "mode": "full",
+    "difficulty": "intermediate",
+    "elapsed_s": 32.3,
+    "events": [
+      "chapter_info",
+      "stage",
+      "library",
+      "stage",
+      "controller_result",
+      "stage",
+      "question_start",
+      "stage",
+      "draft_question",
+      "stage",
+      "stage",
+      "critic_result",
+      "stage",
+      "question_ready",
+      "all_done",
+      "done"
+    ],
+    "error": null,
+    "question": "سجل معلم نتائج استبيان حول الفاكهة المفضلة لعدد من طلاب الصف السادس، وكانت البيانات الخام كالتالي:\nموز، تفاح، برتقال، موز، تفاح، موز، برتقال، تفاح، تفاح، موز، برتقال، تفاح، موز، برتقال، موز، تفاح.\nباستخدام خطة حل المسألة (إنشاء جدول تكراري)، ما هو مجموع تكرار الفواكه التي ليست موزاً؟",
+    "correct_label": "C",
+    "correct_answer": "١٠",
+    "options": [
+      {
+        "label": "A",
+        "text": "٦"
+      },
+      {
+        "label": "B",
+        "text": "١٦"
+      },
+      {
+        "label": "C",
+        "text": "١٠"
+      },
+      {
+        "label": "D",
+        "text": "٤"
+      }
+    ],
+    "explanation": "لحل المسألة، نتبع الخطوات التالية:\n١. نفهم: المعطيات هي قائمة الفاكهة المفضلة للطلاب. المطلوب هو مجموع تكرار الفواكه التي ليست موزاً.\n٢. نخطط: سننشئ جدولاً تكرارياً لتنظيم البيانات.\n٣. نحل: \n   - نعد تكرار كل فاكهة:\n     - موز: ٦ مرات\n     - تفاح: ٦ مرات\n     - برتقال: ٤ مرات\n   - الفواكه التي ليست موزاً هي التفاح والبرتقال.\n   - مجموع تكرار الفواكه التي ليست موزاً = تكرار التفاح + تكرار البرتقال = ٦ + ٤ = ١٠.\n٤. نتحقق: المجموع الكلي للطلاب هو ٦ (موز) + ٦ (تفاح) + ٤ (برتقال) = ١٦. وهذا يتوافق مع عدد البيانات المعطاة. إذن، الإجابة ١٠ منطقية.",
+    "verdict": "APPROVED",
+    "score": 10,
+    "topic_used": "Problem-Solving Plan: Creating a Table",
+    "criteria": {
+      "language": true,
+      "difficulty": true,
+      "scope": true,
+      "correctness": true,
+      "clarity": true,
+      "arabic_quality": true,
+      "distractors": true
+    }
+  },
+  "G6_Ch2_teacher_only": {
+    "grade": 6,
+    "chapter_num": 2,
+    "chapter_en": "Statistics and Graphical Representations",
+    "mode": "teacher_only",
+    "difficulty": "intermediate",
+    "elapsed_s": 27.0,
+    "events": [
+      "chapter_info",
+      "question_start",
+      "stage",
+      "draft_question",
+      "stage",
+      "stage",
+      "critic_result",
+      "stage",
+      "question_ready",
+      "all_done",
+      "done"
+    ],
+    "error": null,
+    "question": "يمثل الرسم البياني الخطي أدناه استهلاك الكهرباء (بالكيلوواط ساعة) لإحدى المدارس على مدار خمسة أشهر. ما الفرق بين أعلى استهلاك وأقل استهلاك للكهرباء خلال هذه الأشهر؟\n\nيناير: 400 كيلوواط ساعة\nفبراير: 450 كيلوواط ساعة\nمارس: 500 كيلوواط ساعة\nأبريل: 420 كيلوواط ساعة\nمايو: 380 كيلوواط ساعة",
+    "correct_label": "B",
+    "correct_answer": "120 كيلوواط ساعة",
+    "options": [
+      {
+        "label": "A",
+        "text": "380 كيلوواط ساعة"
+      },
+      {
+        "label": "B",
+        "text": "120 كيلوواط ساعة"
+      },
+      {
+        "label": "C",
+        "text": "500 كيلوواط ساعة"
+      },
+      {
+        "label": "D",
+        "text": "20 كيلوواط ساعة"
+      }
+    ],
+    "explanation": "أعلى استهلاك للكهرباء كان في شهر مارس وهو 500 كيلوواط ساعة. أقل استهلاك للكهرباء كان في شهر مايو وهو 380 كيلوواط ساعة. الفرق بين أعلى وأقل استهلاك هو 500 - 380 = 120 كيلوواط ساعة.",
+    "verdict": "APPROVED",
+    "score": 9,
+    "topic_used": "Interpreting line graphs and calculating range",
+    "criteria": {
+      "language": true,
+      "difficulty": true,
+      "scope": true,
+      "correctness": true,
+      "clarity": true,
+      "arabic_quality": true,
+      "distractors": true
+    }
+  },
+  "G6_Ch3_full": {
+    "grade": 6,
+    "chapter_num": 3,
+    "chapter_en": "Operations on Decimal Fractions",
+    "mode": "full",
+    "difficulty": "intermediate",
+    "elapsed_s": 36.0,
+    "events": [
+      "chapter_info",
+      "stage",
+      "library",
+      "stage",
+      "controller_result",
+      "stage",
+      "question_start",
+      "stage",
+      "draft_question",
+      "stage",
+      "stage",
+      "critic_result",
+      "stage",
+      "question_ready",
+      "all_done",
+      "done"
+    ],
+    "error": null,
+    "question": "تحتوي حاوية كبيرة على 16.8 لترًا من العصير. إذا أُريد تعبئة هذا العصير في زجاجات صغيرة، سعة كل زجاجة منها 0.75 لتر، فما أكبر عدد من الزجاجات الكاملة التي يمكن ملؤها؟",
+    "correct_label": "D",
+    "correct_answer": "22",
+    "options": [
+      {
+        "label": "A",
+        "text": "22.4"
+      },
+      {
+        "label": "B",
+        "text": "2.24"
+      },
+      {
+        "label": "C",
+        "text": "23"
+      },
+      {
+        "label": "D",
+        "text": "22"
+      }
+    ],
+    "explanation": "لإيجاد عدد الزجاجات الكاملة، نقسم إجمالي كمية العصير على سعة الزجاجة الواحدة. نحول المقسوم عليه (0.75) إلى عدد صحيح بضرب كل من المقسوم والمقسوم عليه في 100. تصبح المسألة 1680 ÷ 75. بإجراء القسمة المطولة، نحصل على 22.4. بما أن السؤال يطلب عدد الزجاجات الكاملة، فإننا نأخذ الجزء الصحيح فقط من الناتج، وهو 22.",
+    "verdict": "APPROVED",
+    "score": 9,
+    "topic_used": "Dividing by a decimal fraction",
+    "criteria": {
+      "language": true,
+      "difficulty": true,
+      "scope": true,
+      "correctness": true,
+      "clarity": true,
+      "arabic_quality": true,
+      "distractors": true
+    }
+  },
+  "G6_Ch3_teacher_only": {
+    "grade": 6,
+    "chapter_num": 3,
+    "chapter_en": "Operations on Decimal Fractions",
+    "mode": "teacher_only",
+    "difficulty": "intermediate",
+    "elapsed_s": 19.6,
+    "events": [
+      "chapter_info",
+      "question_start",
+      "stage",
+      "draft_question",
+      "stage",
+      "stage",
+      "critic_result",
+      "stage",
+      "question_ready",
+      "all_done",
+      "done"
+    ],
+    "error": null,
+    "question": "اشترى أحمد 3.5 كيلوغرام من التفاح بسعر 17.5 ريالاً. إذا كان سعر التفاح متساوياً، فما هو سعر الكيلوغرام الواحد من التفاح؟",
+    "correct_label": "B",
+    "correct_answer": "5 ريالات",
+    "options": [
+      {
+        "label": "A",
+        "text": "4.5 ريالات"
+      },
+      {
+        "label": "B",
+        "text": "5 ريالات"
+      },
+      {
+        "label": "C",
+        "text": "0.5 ريال"
+      },
+      {
+        "label": "D",
+        "text": "61.25 ريال"
+      }
+    ],
+    "explanation": "لحساب سعر الكيلوغرام الواحد من التفاح، يجب قسمة السعر الإجمالي على عدد الكيلوغرامات. نقوم بقسمة 17.5 ÷ 3.5. لجعل المقسوم عليه عدداً كلياً، نحرك الفاصلة العشرية في كل من المقسوم والمقسوم عليه خانة واحدة إلى اليمين. تصبح المسألة 175 ÷ 35، والناتج هو 5.",
+    "verdict": "APPROVED",
+    "score": 9,
+    "topic_used": "Division of Decimal Fractions",
+    "criteria": {
+      "language": true,
+      "difficulty": true,
+      "scope": true,
+      "correctness": true,
+      "clarity": true,
+      "arabic_quality": true,
+      "distractors": true
+    }
+  }
+}
