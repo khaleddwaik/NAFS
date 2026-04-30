@@ -32,10 +32,18 @@ def load_library(grade):
         return _lib_cache[grade]
     return []
 
+def get_available_chapters(grade):
+    """Return set of chapter numbers that have test data for this grade."""
+    data = load_test_data()
+    return {v["chapter_num"] for v in data.values() if v.get("grade") == grade}
+
 def get_chapters(grade):
+    available = get_available_chapters(grade)
     seen = {}
     for e in load_library(grade):
         ch = e["chapter"]
+        if ch not in available:
+            continue
         if ch not in seen:
             seen[ch] = {"num": ch, "en": e["chapter_title"]["en"],
                         "ar": e["chapter_title"]["ar"], "lesson_count": 0, "lessons": []}
